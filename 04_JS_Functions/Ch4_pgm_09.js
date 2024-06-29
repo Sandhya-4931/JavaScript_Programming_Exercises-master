@@ -1,6 +1,11 @@
 // Using a function to display object properties
 
 var showMovieInfo;
+var movie = {
+  title : "Queen of tears",
+  actors : "Kim Soohyun and Kim jiwon",
+  directors : "Jang yang woo"
+};
 
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
@@ -10,7 +15,7 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
-
+showMovieInfo();
 
 /* Further Adventures
  *

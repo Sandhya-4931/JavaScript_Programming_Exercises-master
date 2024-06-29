@@ -2,6 +2,12 @@
 
 var findTotal;
 var displayMenu;
+var number1;
+var number2;
+var result;
+
+number1 = 30;
+number2 = 45;
 
 findTotal = function () {
 	result = number1 + number2;
@@ -13,7 +19,9 @@ displayMenu = function () {
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
 };
-
+findTotal();
+console.log(result);
+displayMenu();
 
 
 /* Further Adventures

@@ -3,6 +3,11 @@
 var movie1;
 var showMovieInfo;
 var movie;
+var movie2 = {
+  title : "Queen of tears",
+  actors : "Kim Soohyun and Kim jiwon",
+  directors : "Jang yang woo"
+};
 
 movie1 = {
     title: "Inside Out",
@@ -19,9 +24,8 @@ showMovieInfo = function () {
 };
 
 movie = movie1;
-
+movie = movie2;
 showMovieInfo();
-
 
 
 /* Further Adventures

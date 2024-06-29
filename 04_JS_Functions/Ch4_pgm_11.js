@@ -41,7 +41,36 @@ showMovieInfo();
 movie = movie3;
 showMovieInfo();
 
+// --------------------------------------
 
+var question1;
+var question2;
+var question3
+question1 = {
+    question : "What does the acronym \"HTTP\" stand for?",
+    anwser : " Hypertext Transfer Protocol"
+};
+question2 = {
+    question : "What is the largest social media platform by user count?",
+    anwser : "Elon Musk"
+};
+question3 = {
+    question : "Who is the CEO of Tesla Inc.?",
+    anwser : "Facebook"
+};
+function multipleQA (){
+    console.log("Multiple choice question");
+    console.log("Question 1 : " + question1.question);
+    console.log("answer : " + question1.anwser);
+    console.log("\n");
+    console.log("Question 2 : " + question2.question);
+    console.log("answer : " + question2.anwser);
+    console.log("\n");
+    console.log("Question 3 : " + question3.question);
+    console.log("answer : " + question3.anwser);
+}
+
+multipleQA();
 
 /* Further Adventures
  *

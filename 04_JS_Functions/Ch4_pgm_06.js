@@ -3,13 +3,21 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello'\n' All!");
 };
 
 sayHello();
 sayHello();
 sayHello();
 
+var message;
+function helloMessage() {
+	message = "hello World!";
+	for(let i=0;i<=message.length;i++){
+		console.log(message[i]);
+	}
+}
+helloMessage();
 
 
 /* Further Adventures

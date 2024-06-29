@@ -3,6 +3,7 @@
 var sale1;
 var sale2;
 var sale3;
+var sale4;
 var sale;
 var calculateTax;
 var displaySale;
@@ -10,6 +11,8 @@ var displaySale;
 sale1 = { price: 140, taxRate: 15 };
 sale2 = { price: 40, taxRate: 10 };
 sale3 = { price: 120, taxRate: 20 };
+sale4 = { price: 150, taxRate : 25 };
+
 
 calculateTax = function () {
 	sale.tax = sale.price * sale.taxRate / 100;
@@ -30,9 +33,16 @@ sale = sale2;
 calculateTax();
 displaySale();
 
+
 sale = sale3;
 calculateTax();
 displaySale();
+
+
+sale = sale4;
+calculateTax(sale1, sale2, sale3, sale4);
+displaySale(sale1, sale2, sale3, sale4);
+
 
 
 

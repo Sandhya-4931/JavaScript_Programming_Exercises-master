@@ -4,6 +4,8 @@ var player1;
 var player2;
 var player;
 var showPlayerInfo;
+var showPlayerPlace;
+var showPlayerHealth;
 
 player1 = {
     name: "Kandra",
@@ -26,12 +28,22 @@ showPlayerInfo = function () {
     console.log("");
 };
 
+showPlayerPlace = function () {
+    console.log("The player is from " + player.place);
+}
+
+showPlayerHealth = function() {
+    console.log("The player has health " + player.health);
+}
 player = player1;
 showPlayerInfo();
+showPlayerPlace();
+showPlayerHealth();
 
 player = player2;
 showPlayerInfo();
-
+showPlayerPlace();
+showPlayerHealth();
 
 
 /* Further Adventures
