@@ -13,7 +13,6 @@ player1.correct = 1;
 player1.score = 50;
 
 
-
 /* Further Adventures
  *
  * 1) Run the program and then

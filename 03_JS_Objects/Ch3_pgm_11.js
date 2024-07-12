@@ -25,6 +25,7 @@ console.log(player1.name + " has scored " + player1.score);
 sum = player1.score + player2.score;
 console.log("Total score of " + player1.name + " and " + player2.name + " is " + sum);
 
+
 /* Further Adventures
  *
  * 1) Write code to increase player1's score by 10%.
