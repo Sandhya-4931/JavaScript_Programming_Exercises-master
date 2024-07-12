@@ -24,6 +24,7 @@ displayMenu2 = function(){
 };
 displayMenu2();
 
+
 /* Further Adventures
  *
  * 1) Add two more options to the displayMenu

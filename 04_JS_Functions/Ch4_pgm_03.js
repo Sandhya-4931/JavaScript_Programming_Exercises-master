@@ -40,6 +40,7 @@ console.log("tax @ " + sale4.taxRate + "% = $" + sale4.tax);
 console.log("total cost = $" + sale4.total);
 
 
+
 /* Further Adventures
  *
  * 1) Add the details for a fourth sale.

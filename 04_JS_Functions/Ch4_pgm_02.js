@@ -65,6 +65,7 @@ console.log("The " + event1.eventname + " event to be held on " + event1.date);
 console.log("The " + event2.eventname + " event to be held on " + event2.date);
 console.log("The " + event3.eventname + " event to be held on " + event3.date);
 
+
 /* Further Adventures
  *
  * 1) Add a fourth movie and display its info

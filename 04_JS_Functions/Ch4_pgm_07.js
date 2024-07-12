@@ -16,6 +16,7 @@ console.log(number1 + " + " + number2 + " + " +number3 + " = " + result);
 
 
 
+
 /* Further Adventures
  *
  * 1) Change number1 and number2 and run the program
