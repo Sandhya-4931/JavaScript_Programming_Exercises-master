@@ -15,7 +15,6 @@ bookAuthor2 = "Colleen Hover";
 bookTitle3 = "Hamlet";
 bookAuthor3 = "William Shakespeare";
 
-
 console.log(bookTitle1 + " by " + bookAuthor1);
 console.log(bookTitle2 + " by " + bookAuthor2);
 console.log(bookTitle3 + " by " + bookAuthor3);
