@@ -2,7 +2,7 @@
 
 var score;
 var mark;
-var result;
+var mark2;
 
 /* Further Adventures
  *
