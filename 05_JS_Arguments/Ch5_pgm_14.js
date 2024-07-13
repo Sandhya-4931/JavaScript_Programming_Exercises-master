@@ -41,6 +41,35 @@ var player2 = {
 showPlayerInfo(player1.name, player1.place, player1.health);
 showPlayerInfo(player2.name, player2.place, player2.health);
 
+// Further Adventures
+
+var showLine = function (length) {
+    var line = Array(length + 1).join("-");
+    console.log(line);
+};
+
+showLine(5);
+showLine(20);
+
+var showPlayerNameInBox = function (playerName) {
+    var length = playerName.length + 4;
+    showLine(length);
+    console.log("| " + playerName + " |");
+    showLine(length);
+};
+
+showPlayerNameInBox(player1.name);
+showPlayerNameInBox(player2.name);
+
+var showLineWithAsterisks = function (length) {
+    var line = Array(length + 1).join("*");
+    console.log(line);
+};
+
+showLineWithAsterisks(10);
+console.log("* " + player1.name + " *");
+showLineWithAsterisks(10);
+
 
 
 
