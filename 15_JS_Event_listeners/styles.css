@@ -13,7 +13,8 @@ body {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 400px;
+  width: 90%;
+  max-width: 600px; /* Adjust as needed */
   text-align: center;
 }
 
@@ -23,6 +24,8 @@ h1 {
 }
 
 .numbers-container {
+  max-height: 70vh; /* Adjust height as needed */
+  overflow-y: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
