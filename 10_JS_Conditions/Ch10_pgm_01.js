@@ -9,7 +9,6 @@ var guess = function (userNumber) {
 };
 
 
-
 /* Further Adventures
  *
  * 1) Click run.
