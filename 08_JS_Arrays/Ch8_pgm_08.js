@@ -1,5 +1,5 @@
 // Calling forEach with an inline function
-
+/*
 var items = [ "The Pyramids", "The Grand Canyon", "Bondi Beach" ];
 
 console.log("Dream destinations:");
@@ -30,3 +30,17 @@ items.forEach(function (item) {
  * console prompt to show previous commands used.
  *
  */
+
+// Array of dream destinations
+var items = ["The Pyramids", "The Grand Canyon", "Bondi Beach"];
+
+// Function to display the number of places and the places themselves
+var showItems = function () {
+    console.log("There are " + items.length + " dream destinations:");
+    items.forEach(function (item) {
+        console.log(" – " + item);
+    });
+};
+
+// Initial display of dream destinations
+showItems();
