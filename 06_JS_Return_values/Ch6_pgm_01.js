@@ -11,6 +11,12 @@ response = getMessage();
 
 console.log(response);
 
+var getMyMessage = function () {
+    return "Hello, world!";
+};
+
+console.log(getMyMessage());
+
 
 
 /* Further Adventures
