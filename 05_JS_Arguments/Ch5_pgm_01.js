@@ -6,11 +6,21 @@ var showMessage;
 message = "It's full of stars!";
 
 showMessage = function () {
-	console.log(message);
+    console.log(message);
 };
+
 
 showMessage();
 
+message = "Hello, Universe!";
+showMessage();
+
+
+showMessage = function () {
+    console.log(msg);  
+};
+
+showMessage();  
 
 
 /* Further Adventures
