@@ -3,8 +3,20 @@
 var message = "We choose to go to the Moon!";
 
 var charIndex = message.indexOf("M");
-
 console.log(message.substr(charIndex, 3));
+
+console.log("\nFurther Adventures:");
+
+var startIndex = message.indexOf("go");
+console.log("1) Index where 'go' starts:", startIndex);
+
+var startIndexOfChoose = message.indexOf("choose");
+var chooseWord = message.substr(startIndexOfChoose, 6); 
+console.log("2) Word 'choose':", chooseWord);
+
+var lastIndex = message.lastIndexOf("oo");
+console.log("3) Index of 'oo' in 'Moon':", lastIndex);
+
 
 
 

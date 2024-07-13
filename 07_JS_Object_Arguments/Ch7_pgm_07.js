@@ -1,9 +1,23 @@
 // Converting a string to upper case
 
+var getBig = function (str) {
+  return str.toUpperCase();
+};
+
+var getSmall = function (str) {
+  return str.toLowerCase();
+};
+
 var planet = "Jupiter";
-var bigPlanet = planet.toUpperCase();
+var bigPlanet = getBig(planet);
 
 console.log(planet + " becomes " + bigPlanet);
+
+var star = "SIRIUS";
+var smallStar = getSmall(star);
+
+console.log(star + " becomes " + smallStar);
+
 
 
 

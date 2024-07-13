@@ -1,29 +1,29 @@
 // A function to create planets
 
-var buildPlanet;
-var getPlanetInfo;
-var planet1;
-var planet2;
+var buildCar;
+var getCarInfo;
+var car1;
+var car2;
 
-buildPlanet = function (name, position, type, radius, rank) {
+buildCar = function (make, model, year, color) {
     return {
-        name: name,
-        position: position,
-        type: type,
-        radius: radius,
-        sizeRank: rank
+        make: make,
+        model: model,
+        year: year,
+        color: color
     };
 };
 
-getPlanetInfo = function (planet) {
-    return planet.name.toUpperCase() + ": planet " + planet.position;
+getCarInfo = function (car) {
+    return car.year + " " + car.make + " " + car.model + ", color: " + car.color;
 };
 
-planet1 = buildPlanet("Jupiter", 5, "Gas Giant", 69911, 1);
-planet2 = buildPlanet("Neptune", 8, "Ice Giant", 24622, 4);
+car1 = buildCar("Toyota", "Camry", 2022, "Silver");
+car2 = buildCar("Tesla", "Model S", 2023, "Red");
 
-console.log(getPlanetInfo(planet1));
-console.log(getPlanetInfo(planet2));
+console.log(getCarInfo(car1));
+console.log(getCarInfo(car2));
+
 
 
 
