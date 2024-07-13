@@ -41,6 +41,7 @@ fetch(url)
 
 //  async and await
 
+
 const fetchData = async () => {
     try {
       const response = await fetch(url)

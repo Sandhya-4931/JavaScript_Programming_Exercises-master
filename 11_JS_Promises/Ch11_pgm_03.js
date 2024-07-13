@@ -26,5 +26,6 @@ const doPromise = new Promise((resolve, reject) => {
     .catch(error => console.log(error))
 
 
+    
 
     // ["HTML", "CSS", "JS"]

@@ -4,6 +4,7 @@
 // In addition to that let us see demonstrate use case of promises in accessing network resources 
 // using the fetch API.
 
+
 const url = 'https://restcountries.com/v2/all' // countries api
 fetch(url)
   .then(response => response.json()) // accessing the API data as JSON
