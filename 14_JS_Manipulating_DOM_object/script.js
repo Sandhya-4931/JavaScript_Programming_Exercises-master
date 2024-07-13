@@ -11,6 +11,7 @@ function isPrime(num) {
   return true;
 }
 
+
 // Function to create numbers and append to container with styles
 document.addEventListener("DOMContentLoaded", function() {
   const container = document.getElementById("numberContainer");
