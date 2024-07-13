@@ -3,14 +3,13 @@
 var getHelloTo;
 var fullMessage;
 
-getHelloTo = function (name1, name2) {
-    return "Hello to " + name1 + " and " + name2;
+getHelloTo = function (name) {
+    return "Hello to " + name;
 };
 
-fullMessage = getHelloTo("Kandra", "Dax");
+fullMessage = getHelloTo("Kandra");
 
 console.log(fullMessage);
-
 
 
 
