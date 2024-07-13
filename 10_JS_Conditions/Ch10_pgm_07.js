@@ -68,7 +68,7 @@ var getQuiz = function () {
   var quiz = getQuiz();
   
   
-  
+
   /* Further Adventures
    *
    * 1) Run the program.

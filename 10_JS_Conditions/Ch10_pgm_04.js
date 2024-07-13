@@ -14,7 +14,7 @@ var getGuesser = function () {
   
   var guess = getGuesser();
   
-  
+
   
   /* Further Adventures
    *

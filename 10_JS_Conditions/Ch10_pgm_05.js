@@ -19,7 +19,7 @@ var getGuesser = function () {
   var guess = getGuesser();
   
   
-  
+
   /* Further Adventures
    *
    * 1) Run the program

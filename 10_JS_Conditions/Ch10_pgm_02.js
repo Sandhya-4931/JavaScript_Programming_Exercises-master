@@ -11,7 +11,6 @@ var guess = function (userNumber) {
 };
 
 
-
 /* Further Adventures
  *
  * 1) Run the program and try a few guesses at the prompt.
