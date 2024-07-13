@@ -4,7 +4,6 @@ console.log("Hello All");
 console.log("This is Sandhya..!");
 console.log("nice to meet you.");
 
-
 /* Further Adventures
  *
  * 1) Change the text between the parentheses.
