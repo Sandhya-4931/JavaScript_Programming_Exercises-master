@@ -15,5 +15,6 @@
 
 ### Expected Output Page
 
-![final_output_page](https://github.com/Asabeneh/30-Days-Of-JavaScript/raw/master/images/projects/dom_mini_project_form_validation_day_10.2.png)
+![final_output_page](https://github.com/Asabeneh/
+30-Days-Of-JavaScript/raw/master/images/projects/dom_mini_project_form_validation_day_10.2.png)
 
